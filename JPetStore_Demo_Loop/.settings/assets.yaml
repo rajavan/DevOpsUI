@@ -1,0 +1,37 @@
+name: JPetStore_Demo_Loop
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /JPetStore_Demo_Loop/src
+        type: javaClasspath
+  - name: JPetStoreDemo(2).recdata
+  - name: JPetStoreDemo(2).recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /JPetStore_Demo_Loop/JPetStoreDemo(2).recdata
+        type: recsessionRecdata
+  - name: JPetStoreDemo.recdata
+  - name: JPetStoreDemo.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /JPetStore_Demo_Loop/JPetStoreDemo.recdata
+        type: recsessionRecdata
+  - name: JPetStoreDemo.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.6.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1F09AD1FA0613B0C8AFB76135346232
+    dependencies: 
+      - path: /JPetStore_Demo_Loop/JPetStoreDemo(2).recsession
+        type: testRecsession
+      - path: /JPetStore_Demo_Loop/b_10_115_154_35.ma
+        type: test#moeb.applicationPackage
+  - name: b_10_115_154_35.ma
+    type: moeb.applicationPackage
+  - name: src
+    resources: 
