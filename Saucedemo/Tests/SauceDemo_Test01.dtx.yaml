@@ -1,0 +1,325 @@
+note: Generated from recorded traffic
+steps:
+  - open:
+      note: Open Saucedemo
+      meta:
+        browserName: firefox
+        browserVersion: 144.0.2
+        platformName: windows
+      url: '${APP_SAUCEDEMO_URL}'
+  - with:
+      note: Swag Labs
+      steps:
+        - click:
+            shot: shot/5g2jc7.dti.jpeg#24
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - placeholder:
+                      - val: Username
+        - type:
+            shot: shot/povg4v.dti.jpeg#46
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - placeholder:
+                      - val: Username
+            value: standard_user
+        - click:
+            shot: shot/dspcvg.dti.jpeg#92
+            object: html.inputpassword
+            identifiers:
+              - properties:
+                  - placeholder:
+                      - val: Password
+        - type:
+            shot: shot/lin5g7.dti.jpeg#114
+            object: html.inputpassword
+            identifiers:
+              - properties:
+                  - placeholder:
+                      - val: Password
+            value: secret_sauce
+        - click:
+            shot: shot/s5hnfq.dti.jpeg#161
+            object: html.inputsubmit
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Login
+  - with:
+      note: Swag Labs
+      steps:
+        - click:
+            shot: shot/h3rjse.dti.jpeg#239
+            object: html.button
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Add to cart
+                locators:
+                  - position: '4'
+        - click:
+            shot: shot/a32q6t.dti.jpeg#312
+            object: html.button
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Add to cart
+                locators:
+                  - position: '1'
+        - click:
+            shot: shot/kle7kv.dti.jpeg#502
+            object: html.html
+            identifiers:
+              - properties:
+                  - content:
+                      - val: |-
+                          Open Menu
+                          Swag Labs
+                          2
+                          Products
+                          Name (A to Z)
+                          Sauce Labs Backpack
+                          carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+                          $29.99
+                          Remove
+                          Sauce Labs Bike Light
+                          A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+                          $9.99
+                          Add to cart
+                          Sauce Labs Bolt T-Shirt
+                          Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+                          $15.99
+                          Add to cart
+                          Sauce Labs Fleece Jacket
+                          It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+                          $49.99
+                          Remove
+                          Sauce Labs Onesie
+                          Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+                          $7.99
+                          Add to cart
+                          Test.allTheThings() T-Shirt (Red)
+                          This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+                          $15.99
+                          Add to cart
+                          Twitter
+                          Facebook
+                          LinkedIn
+                          © 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+        - click:
+            shot: shot/mwllbo.dti.jpeg#590
+            object: html.button
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Add to cart
+                locators:
+                  - position: '4'
+        - click:
+            shot: shot/krkuzo.dti.jpeg#720
+            object: html.html
+            identifiers:
+              - properties:
+                  - content:
+                      - val: |-
+                          Open Menu
+                          Swag Labs
+                          3
+                          Products
+                          Name (A to Z)
+                          Sauce Labs Backpack
+                          carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+                          $29.99
+                          Remove
+                          Sauce Labs Bike Light
+                          A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+                          $9.99
+                          Add to cart
+                          Sauce Labs Bolt T-Shirt
+                          Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+                          $15.99
+                          Add to cart
+                          Sauce Labs Fleece Jacket
+                          It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+                          $49.99
+                          Remove
+                          Sauce Labs Onesie
+                          Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+                          $7.99
+                          Add to cart
+                          Test.allTheThings() T-Shirt (Red)
+                          This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+                          $15.99
+                          Remove
+                          Twitter
+                          Facebook
+                          LinkedIn
+                          © 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+        - click:
+            shot: shot/d6bkhf.dti.jpeg#730
+            object: html.a
+            identifiers:
+              - properties:
+                  - content:
+                      - val: '3'
+  - with:
+      note: Swag Labs
+      steps:
+        - click:
+            shot: shot/cc72zs.dti.jpeg#894
+            object: html.html
+            identifiers:
+              - properties:
+                  - content:
+                      - val: |-
+                          Open Menu
+                          Swag Labs
+                          3
+                          Your Cart
+                          QTYDescription
+                          1
+                          Sauce Labs Fleece Jacket
+                          It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+                          $49.99
+                          Remove
+                          1
+                          Sauce Labs Backpack
+                          carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+                          $29.99
+                          Remove
+                          1
+                          Test.allTheThings() T-Shirt (Red)
+                          This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+                          $15.99
+                          Remove
+                          Continue Shopping
+                          Checkout
+                          Twitter
+                          Facebook
+                          LinkedIn
+                          © 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+        - click:
+            shot: shot/uykbey.dti.jpeg#942
+            object: html.button
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Checkout
+  - with:
+      note: Swag Labs
+      steps:
+        - click:
+            shot: shot/kiwwol.dti.jpeg#1003
+            object: html.html
+            identifiers:
+              - properties:
+                  - content:
+                      - val: |-
+                          Open Menu
+                          Swag Labs
+                          3
+                          Checkout: Your Information
+                          Cancel
+                          Twitter
+                          Facebook
+                          LinkedIn
+                          © 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+        - click:
+            shot: shot/7ciyn7.dti.jpeg#1019
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - placeholder:
+                      - val: First Name
+        - type:
+            shot: shot/g5ob7t.dti.jpeg#1063
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - placeholder:
+                      - val: First Name
+            value: rajesh
+        - type:
+            shot: shot/6xfwgd.dti.jpeg#1109
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - placeholder:
+                      - val: Last Name
+            value: avanthi
+        - click:
+            shot: shot/lzqeas.dti.jpeg#1199
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - placeholder:
+                      - val: Zip/Postal Code
+        - type:
+            shot: shot/kq2yc4.dti.jpeg#1243
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - placeholder:
+                      - val: Zip/Postal Code
+            value: '581320'
+        - click:
+            shot: shot/pqs5qj.dti.jpeg#1337
+            object: html.inputsubmit
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Continue
+  - with:
+      note: Swag Labs
+      steps:
+        - click:
+            shot: shot/h2hm7e.dti.jpeg#1426
+            object: html.html
+            identifiers:
+              - properties:
+                  - content:
+                      - val: |-
+                          Open Menu
+                          Swag Labs
+                          3
+                          Checkout: Overview
+                          QTYDescription
+                          1
+                          Sauce Labs Fleece Jacket
+                          It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+                          $49.99
+                          1
+                          Sauce Labs Backpack
+                          carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+                          $29.99
+                          1
+                          Test.allTheThings() T-Shirt (Red)
+                          This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+                          $15.99
+                          Payment Information:
+                          SauceCard #31337
+                          Shipping Information:
+                          Free Pony Express Delivery!
+                          Price Total
+                          Item total: $95.97
+                          Tax: $7.68
+                          Total: $103.65
+                          Cancel
+                          Finish
+                          Twitter
+                          Facebook
+                          LinkedIn
+                          © 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
+        - click:
+            shot: shot/zir5qs.dti.jpeg#1479
+            object: html.button
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Finish
+vars:
+  APP_SAUCEDEMO_URL:
+    expr: https://www.saucedemo.com/
+    modifier: in
